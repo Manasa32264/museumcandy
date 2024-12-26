@@ -1,0 +1,80 @@
+body{
+    background-color: #f5d9df;
+    font-family: 'nunito' sans-serif;
+}
+#mainnav{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+#mainnav.nav-link{
+    color: white;
+   
+}
+  #mainnav .nav-link:hover{
+    color:#eA1c2c;
+   
+}
+ #mainnav .navbar-brand{
+    color: #eA1c2c;
+   
+}
+section h2{
+    color:white;
+    font-weight: 100;
+    font-size: 3rem;
+
+}
+section span{
+    color: #eA1c2c;
+}
+section img{
+padding: 0px;
+}
+@media(max-width:1920px){
+    section h2{
+        font-size: 2rem;
+    }
+}
+/* Museum of Candy Section */
+.heading {
+    color: red; /* Red color for "Museum of Candy" heading */
+    font-size: 2.5em; /* Font size for heading */
+    font-weight: 100;
+    margin-bottom: 10px; /* Space below heading */
+}
+.content {
+    color: #ffc0cb; /* Light pink color for the text */
+    font-size: 1.2em; /* Font size for content */
+    text-align: center; /* Center-align the content */
+}
+.lolli-icon {
+    margin: 15px 0; /* Margin around the lollipop icon */
+}
+
+/* Add margin between content */
+.container-fluid {
+    margin-top: 7px; /* 7px margin above the content */
+}
+.col-10 {
+    padding: 10px; /* Padding inside the col-10 for spacing */
+}
+.navbar.scrolled{
+    background-color: rgb(222 ,196,222);
+    transition: background-color 500ms;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 1.8em; /* Smaller font size for heading */
+    }
+    .content {
+        font-size: 1em; /* Smaller font size for content */
+    }
+    .lolli-icon {
+        display: none; /* Hide lollipop icon on small screens */
+    }
+    .row.no-gutters {
+        flex-direction: column-reverse; /* Content moves above the image */
+    }
+}
